@@ -3,3 +3,6 @@ tgcrypto
 httplib2
 oauth2client
 google-api-python-client
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
