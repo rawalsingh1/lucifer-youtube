@@ -4,7 +4,7 @@ class Config:
 
     BOT_TOKEN = os.environ.get("6114988028:AAGZHGazdSwdZFhZZiQEHvJxNvPW4RjVQEk")
     
-    SESSION_NAME = os.environ.get("rawalytuploadbot_bot", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("rawalytuploadbot_bot")
 
     API_ID = "16494736"
 
