@@ -6,9 +6,9 @@ class Config:
     
     SESSION_NAME = os.environ.get("rawalytuploadbot_bot", 'youtubeitbot')
 
-    API_ID = int(os.environ.get("16494736"))
+    API_ID = "16494736"
 
-    API_HASH = os.environ.get("2cb7fa5859e2de684e3e10d9c049621a")
+    API_HASH = "2cb7fa5859e2de684e3e10d9c049621a"
 
     CLIENT_ID = os.environ.get("260176737372-iu17pd3mkkm4lejrlaatbr08kmo604ec.apps.googleusercontent.com")
 
