@@ -14,7 +14,7 @@ class Config:
 
     CLIENT_SECRET = os.environ.get("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")
 
-    BOT_OWNER = int(os.environ.get("656718180"))
+    BOT_OWNER = os.environ.get("656718180"))
     
     AUTH_USERS_TEXT = os.environ.get("656718180", '')
 
@@ -22,7 +22,7 @@ class Config:
     
     VIDEO_DESCRIPTION = os.environ.get("VIDEO_DESCRIPTION", '').replace('<', '').replace('>', '')
     
-    VIDEO_CATEGORY = int(os.environ.get("VIDEO_CATEGORY")) if os.environ.get("VIDEO_CATEGORY") else 0
+    VIDEO_CATEGORY = os.environ.get("VIDEO_CATEGORY")) if os.environ.get("VIDEO_CATEGORY") else 0
     
     VIDEO_TITLE_PREFIX = os.environ.get("VIDEO_TITLE_PREFIX", '')
     
