@@ -2,23 +2,23 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("6114988028:AAGZHGazdSwdZFhZZiQEHvJxNvPW4RjVQEk")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("rawalytuploadbot_bot", 'youtubeitbot')
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("16494736"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("2cb7fa5859e2de684e3e10d9c049621a")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = os.environ.get("260176737372-iu17pd3mkkm4lejrlaatbr08kmo604ec.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = os.environ.get("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")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("656718180"))
     
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", '')
+    AUTH_USERS_TEXT = os.environ.get("656718180", '')
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
+    AUTH_USERS = [BOT_OWNER, ] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
     
     VIDEO_DESCRIPTION = os.environ.get("VIDEO_DESCRIPTION", '').replace('<', '').replace('>', '')
     
@@ -30,7 +30,7 @@ class Config:
     
     DEBUG = bool(os.environ.get("DEBUG"))
     
-    UPLOAD_MODE = os.environ.get("UPLOAD_MODE") or False
+    UPLOAD_MODE = os.environ.get("private") or False
     if UPLOAD_MODE:
         if UPLOAD_MODE.lower() in ['private', 'public', 'unlisted']:
             UPLOAD_MODE = UPLOAD_MODE.lower()
