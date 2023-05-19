@@ -12,7 +12,7 @@ class Config:
 
     CLIENT_ID = os.environ.get("260176737372-iu17pd3mkkm4lejrlaatbr08kmo604ec.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("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")
+    CLIENT_SECRET = os.environ.get"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"
 
     BOT_OWNER = "656718180"
     
