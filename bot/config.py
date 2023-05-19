@@ -2,9 +2,9 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("6114988028:AAGZHGazdSwdZFhZZiQEHvJxNvPW4RjVQEk")
+    BOT_TOKEN = os.environ.get("5832377709:AAFh5jHQQXwOn8fqVEmrI6AVbK4KrVL0OOI")
     
-    SESSION_NAME = os.environ.get("rawalytuploadbot_bot")
+    SESSION_NAME = os.environ.get("lucifer1rawal_bot")
 
     API_ID = "16494736"
 
